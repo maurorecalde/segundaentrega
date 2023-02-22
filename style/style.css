@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+}
+
+body{
+    background-color: aliceblue;
+}
+
+header{
+    background-color: aquamarine;
+}
+
+footer{
+    background-color: aqua;
+}
+
+
+p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-style: normal;
+    text-align: center;
+    font-size: 15px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    color: black;
+    background-color: aliceblue;
+}
+
+.imagenServicios{
+    padding: 5px;
+    margin: 2px;
+    border: 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.navegador{
+    font-style: roboto;
+    text-align: center;
+    font-size: 15px;
+    color: aliceblue;
+    text-transform: uppercase;
+}
+
+h1{
+    color: black;
+    padding: 5px;
+    border: 5px;
+    margin: 7px;
+}
+
+.formulario{
+    padding: 20px;
+    margin: 10px;
+    border: 30px;
+}
+
+.clase{
+    color: blue;
+}
+
+#id{
+    color: white;
+}
+
+ul li{
+    display: inline-block;
+}
+div{
+    border-color: black;
+    padding: 20px;
+    margin: 10px;
+}
+
+.flexContainer{
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
